@@ -12,7 +12,10 @@
 
 
     <div class="calculator">
-        <input type="text" id="display" disabled>
+        <div class="display_main">
+            <input type="text" id="display" disabled>
+            <span id="operator"></span>
+        </div>
         <div class="buttons">
             <button onclick="appendNumber('7')">7</button>
             <button onclick="appendNumber('8')">8</button>
@@ -39,7 +42,7 @@
 
 
 
-    <script>
+    <!-- <script>
         let currentInput = "";
         let operator = "";
         let firstValue = "";
@@ -103,14 +106,14 @@
             firstValue = "";
             document.getElementById("display").value = 0;
         }
-    </script>
+    </script> -->
 
 
 
 
 
 
-    <!-- <script src="script.js"></script> -->
+    <script src="script.js"></script>
 
 </body>
 

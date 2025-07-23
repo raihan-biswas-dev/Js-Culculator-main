@@ -56,3 +56,12 @@ button:hover {
 .clear {
     background: rgb(160, 5, 5);
 }
+
+.display_main {
+    position: relative;
+}
+.display_main span {
+    position: absolute;
+    left: 10px;
+    top: 18px;
+}
